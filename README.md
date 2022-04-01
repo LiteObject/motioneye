@@ -1,5 +1,9 @@
+![motioneye logo](https://raw.githubusercontent.com/motioneye-project/motioneye/502614c699133b93f78d67492a6d2a502d366825/extra/motioneye.svg)
 # Motioneye installation instruction for docker
 Source repo: https://github.com/motioneye-project/motioneye
+
+## What is Motioneye?
+>Motion is a free software CCTV software application developed for Linux. It uses video4linux and its output can be jpeg, netpbm files, or mpeg video sequences. It is strictly command line driven and can run as a daemon with a rather small footprint and low CPU usage. - Wikipedia
 
 ## To run motioneye in docker comtainer using docker-compose file:
 1. Run the following command: $ `docker-compose up -d`
