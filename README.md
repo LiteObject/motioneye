@@ -16,7 +16,7 @@ Source repo: https://github.com/motioneye-project/motioneye
 5. On the "Add Camera..." popup
    - Select "Network Camera" from the "Camera Type" dropdown
    - Enter "rtsp://192.168.7.38/live" as the "URL" (do not include username/passowrd here)
-   - Enter username and password
+   - Enter "username" and "password"
    - Select "RTSP/TCP" from the "Camera" dropdown
 
 ## To run motioneye in docker container using docker cli command:
