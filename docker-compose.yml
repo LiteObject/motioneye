@@ -5,8 +5,11 @@ services:
     container_name: motioneye
     volumes:
       - /etc/localtime:/etc/localtime:ro #Timezone Config / Do Not Change
-      - /etc/motioneye:/etc/motioneye #Config Storage
-      - /var/lib/motioneye:/var/lib/motioneye  #File Storage
+      - motioneye-etc:/etc/motioneye #Config Storage
+      - motioneye-varlib:/var/lib/motioneye  #File Storage
     ports:
       - 8065:8765
     restart: unless-stopped
+volumes:
+  motioneye-etc: {}
+  motioneye-varlib: {}
